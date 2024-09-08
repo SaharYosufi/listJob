@@ -1,0 +1,213 @@
+body{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar {
+    background-color: #e7eff6;
+}
+.nav-brand {
+    font-size: 2rem;
+    color: #2a4d69;
+    text-decoration: none;
+    font-family: "Dancing Script", cursive;
+}
+.nav-link:hover {
+    background-color: #2a4d69;
+    border: #2a4d69 solid;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.nav-item {
+    font-weight: 500;
+    padding-left: 35px;
+}
+.btn0 {
+    height: 52px;
+    width: 130px;
+    outline: none;
+    border: none;
+    color: #e7eff6;
+    cursor: pointer;
+    transition: all 0.4s;
+    background-color: #2a4d69;
+}
+.btn0:hover {
+    background-color: #0f283d;
+    transition: all 0.4s;
+}
+.btn1 {
+    height: 52px;
+    width: 130px;
+    background-color: transparent;
+    color: #2a4d69;
+    outline: none;
+    border: 2px solid #2a4d69;
+}
+.btn1:hover {
+    background-color: #0f283d;
+    transition: all 0.4s;
+    color: #e7eff6;
+    border: none;
+    outline: none;
+}
+.btn0-feature {
+    text-decoration: none;
+    color: #e7eff6;
+}
+.btn1-feature {
+    text-decoration: none;
+    color: #0f283d;
+}
+.btn1-feature:hover {
+    color: #e7eff6;
+}
+
+.motivation{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.jobTitle{
+    align-items: center;
+    text-align: center;
+}
+
+.FilterBtn button{
+    background-color: #e7eff6;
+    height: 70px;
+    width: 110px;
+    outline: none;
+    border-radius: 10%;
+}
+
+.FilterBtn{
+    text-align: end;
+}
+
+.FilterBtn button a{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+.job-card{
+    background-color: #e7eff6;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: #2a4d69;
+    border: 20px;
+    width: 400px;
+    height: 350px;
+}
+
+.job-card .card-body-job{
+    background-color: #e7eff6;
+    border: none;
+    
+}
+
+.job-card .card-body-job .btn-job{
+    background-color: #2a4d69;
+    color: white;
+    text-decoration: none;
+}
+
+.job-card .card-body-job button{
+    background-color: #2a4d69;
+    height: 40px;
+    width: 80px;
+    outline: none;
+    border-radius: 10%;
+}
+
+.Listing{
+    text-align: center;
+}
+
+.page-link {
+    color: black;
+}
+
+.search-bar-one button{
+    left: 29%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #2a4d69;
+    color: white;
+    transform: scale(0.9);
+    height: 44px;
+    width: 44px;
+}
+
+.search-bar-two button{
+    left: 59%;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #2a4d69;
+    color: white;
+    transform: scale(0.9);
+    height: 44px;
+    width: 44px;
+}
+
+.search-bar-one input{
+    left: 8%;
+    background-color: #e7eff6;
+    position: absolute;
+    width: 25%;
+    border-radius: 80px;
+    border:none;
+    outline:none;
+    text-align: center;
+    font-size: 16px;
+    height: 44px;
+}
+
+.search-bar-two input{
+    left: 38%;
+    background-color: #e7eff6;
+    position: absolute;
+    width: 25%;
+    border-radius: 80px;
+    border:none;
+    outline:none;
+    text-align: center;
+    font-size: 16px;
+    height: 44px;
+}
+
+.searchBtn{
+    text-align: end;
+}
+
+.searchBtn button{
+    background-color: #2a4d69;
+    height: 44px;
+    width: 110px;
+    outline: none;
+    border-radius: 10px;
+}
+
+
+.searchBtn button a{
+    color: white;
+    text-decoration: none;
+}
+
+@media  (max-width: 800px){
+
+    .search-bar-two input , .search-bar-two button{
+        display: none;
+    }
+    .search-bar-one input{
+        width: 50%;
+        left: 10%;
+    }
+    .search-bar-one button{
+        left: 53%;
+    }
+}
